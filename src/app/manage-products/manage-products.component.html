@@ -1,0 +1,2 @@
+<app-product-form (addEvent)="addProduct($event)"></app-product-form>
+<app-product-table [products]="_repository.getProducts()" (deleteEvent)="deleteProduct($event)"></app-product-table>

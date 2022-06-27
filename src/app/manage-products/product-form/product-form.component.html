@@ -1,0 +1,17 @@
+<h1>Add Product Form</h1>
+
+<form #form="ngForm" (ngSubmit)="onSubmit(form)" novalidate>
+  <label for="code">Code: </label>
+  <input type="text" name="code" id="code" ngModel #code="ngModel"><br>
+
+  <label for="name">Name: </label>
+  <input type="text" name="name" id="name" ngModel #code="ngModel"><br>
+
+  <label for="category">Category: </label>
+  <input type="text" name="category" id="category" ngModel #code="ngModel"><br>
+
+  <label for="price">Price: </label>
+  <input type="text" name="price" id="price" ngModel #code="ngModel"><br>
+
+  <button type="submit">Create</button>
+</form>
